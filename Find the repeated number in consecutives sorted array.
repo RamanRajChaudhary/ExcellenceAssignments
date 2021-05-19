@@ -1,5 +1,4 @@
-<script>
-	function findRepeatingElement(arr, low, high)
+function findRepeatingElement(arr, low, high)
 	{
 		if (low > high) return -1;
 
@@ -18,6 +17,7 @@
 	var arr = [1, 2, 3, 3, 4, 5];
 	var n = arr.length;
 	var index = findRepeatingElement(arr, 0, n - 1);
-	if (index != -1) document.write(arr[index]);
+	if (index != -1){
+	console.log(arr[index]);
+	}
 	
-	</script>
