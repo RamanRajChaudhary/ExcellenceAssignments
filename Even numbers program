@@ -1,3 +1,10 @@
-function isEven(n) {
-    return (n % 2);
+function isEven(arr) {
+    for(var i = 0; i < arr.length; i++){
+      if(arr[i] % 2 == 0){
+       console.log(arr[i]);
+      }
+    }
 }
+isEven([1,2,3,4,5,6]);
+
+
